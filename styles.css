@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', system-ui;
+}
+
+.root {
+    padding: 32px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__title {
+    display: flex;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 12px 0 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 24px;
+    padding: 0 0 4px;
+    color: #243e63;
+}
+
+.nav__link--login {
+    margin: 0 24px 0 48px;
+}
+
+.nav__link--primary {
+    color: #f7fafc;
+    background-color: #6415ff;
+    border-radius: 9999px;
+    padding: 12px 32px;
+}
+
+.nav__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #243e63;
+    cursor: pointer;
+}
+
+.nav__title:hover {
+    color: #6415ff;
+    transition: all 300ms ease;
+}
+
+.twocolumnwithinput__twocolumn {
+    padding: 96px 0;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.twocolumnwithinput__heading  {
+    color: #1a202c;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+.twocolumnwithinput__styledspan {
+    color: #6415ff;
+}
+
+.twocolumnwithinput__para {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.twocolumnwithinput__leftcontainer {
+    width: 40%;
+    position: relative;
+}
+
+.twocolumnwithinput__rightcontainer {
+    width: 60%;
+    position: relative;
+}
+
+.customers__logo--strip {
+    margin: 80px 0 0;
+}
+
+.our__customers {
+    display: block;
+    color: rgb(160, 174, 192);
+    font-size: 12px;
+    font-weight: 700;
+}
